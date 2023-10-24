@@ -28,8 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
-            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle3 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle4 = new DataGridViewCellStyle();
             pbHamburgerGorseli = new PictureBox();
             label1 = new Label();
             cboMenu = new ComboBox();
@@ -177,7 +177,7 @@
             dgvSiparisListesi.BackgroundColor = SystemColors.ButtonFace;
             dgvSiparisListesi.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             dgvSiparisListesi.Columns.AddRange(new DataGridViewColumn[] { Column1, Column2, Column3, Column4, Column5, Column6, Column7 });
-            dgvSiparisListesi.Location = new Point(473, 12);
+            dgvSiparisListesi.Location = new Point(481, 12);
             dgvSiparisListesi.MultiSelect = false;
             dgvSiparisListesi.Name = "dgvSiparisListesi";
             dgvSiparisListesi.ReadOnly = true;
@@ -185,9 +185,9 @@
             dgvSiparisListesi.RowHeadersWidthSizeMode = DataGridViewRowHeadersWidthSizeMode.AutoSizeToFirstHeader;
             dgvSiparisListesi.RowTemplate.Height = 33;
             dgvSiparisListesi.SelectionMode = DataGridViewSelectionMode.FullRowSelect;
-            dgvSiparisListesi.Size = new Size(814, 797);
+            dgvSiparisListesi.Size = new Size(632, 797);
             dgvSiparisListesi.TabIndex = 11;
-            dgvSiparisListesi.CellClick += dgvSiparisListesi_CellClick;
+            dgvSiparisListesi.CellDoubleClick += dgvSiparisListesi_CellDoubleClick;
             // 
             // Column1
             // 
@@ -212,8 +212,8 @@
             // Column3
             // 
             Column3.DataPropertyName = "BirimFiyat";
-            dataGridViewCellStyle1.Format = "c2";
-            Column3.DefaultCellStyle = dataGridViewCellStyle1;
+            dataGridViewCellStyle3.Format = "c2";
+            Column3.DefaultCellStyle = dataGridViewCellStyle3;
             Column3.HeaderText = "Fiyat";
             Column3.MinimumWidth = 8;
             Column3.Name = "Column3";
@@ -232,8 +232,8 @@
             // Column5
             // 
             Column5.DataPropertyName = "SabitBirimFiyat";
-            dataGridViewCellStyle2.Format = "c2";
-            Column5.DefaultCellStyle = dataGridViewCellStyle2;
+            dataGridViewCellStyle4.Format = "c2";
+            Column5.DefaultCellStyle = dataGridViewCellStyle4;
             Column5.HeaderText = "Ekstra Malzeme Fiyatı";
             Column5.MinimumWidth = 8;
             Column5.Name = "Column5";
@@ -283,7 +283,7 @@
             label3.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI", 10F, FontStyle.Bold, GraphicsUnit.Point);
-            label3.Location = new Point(705, 833);
+            label3.Location = new Point(763, 834);
             label3.Name = "label3";
             label3.Size = new Size(257, 28);
             label3.TabIndex = 15;
@@ -294,7 +294,7 @@
             lblToplamTutar.Anchor = AnchorStyles.Bottom | AnchorStyles.Right;
             lblToplamTutar.Font = new Font("Segoe UI", 11F, FontStyle.Bold, GraphicsUnit.Point);
             lblToplamTutar.ForeColor = Color.Brown;
-            lblToplamTutar.Location = new Point(968, 832);
+            lblToplamTutar.Location = new Point(1026, 834);
             lblToplamTutar.Name = "lblToplamTutar";
             lblToplamTutar.Size = new Size(73, 39);
             lblToplamTutar.TabIndex = 16;
@@ -314,7 +314,7 @@
             // 
             AutoScaleDimensions = new SizeF(11F, 25F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(1319, 912);
+            ClientSize = new Size(1138, 912);
             Controls.Add(btnSiparisÇikar);
             Controls.Add(lblToplamTutar);
             Controls.Add(label3);

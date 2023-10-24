@@ -128,7 +128,7 @@ namespace OOPHamburgerci
                 Siparis seciliSiparisDetay = (Siparis)seciliSira.DataBoundItem;
                 _siparis.SiparisDetaylar.Remove(seciliSiparisDetay);
             }
-            dgvSiparisListesi.Refresh();
+
             dgvSiparisListesi.DataSource = _siparis.SiparisDetaylar.ToList();
             lblToplamTutar.Text = _siparis.SiparisDetaylar.Sum(sd => sd.TutarHesapla()).ToString();
         }
@@ -156,7 +156,7 @@ namespace OOPHamburgerci
             }
         }
 
-        private void dgvSiparisListesi_CellClick(object sender, DataGridViewCellEventArgs e)
+        private void dgvSiparisListesi_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
         {
             if (e.RowIndex >= 0)
             {
@@ -200,22 +200,23 @@ namespace OOPHamburgerci
         private void SiparisListesiniGuncelle()
         {
             dgvSiparisListesi.DataSource = null;
-            dgvSiparisListesi.DataSource = _siparis.SiparisDetaylar;
-            dgvSiparisListesi.Refresh();
+            dgvSiparisListesi.DataSource = _siparis.SiparisDetaylar.ToList();
+            lblToplamTutar.Text = _siparis.SiparisDetaylar.Sum(sd => sd.TutarHesapla()).ToString();
         }
+
     }
 }
 
-           
-
-            
-            
 
 
 
 
-    
-            
+
+
+
+
+
+
 
 
 
