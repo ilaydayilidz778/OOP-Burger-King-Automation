@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34202.233
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPHamburgerci", "OOPHamburgerci\OOPHamburgerci.csproj", "{BEFDEDE0-AB7E-47F7-8869-9066B7ACC4E5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPHamburgerci.Data", "OOPHamburgerci.Data\OOPHamburgerci.Data.csproj", "{B9AC2F7A-FB86-4B22-9074-4CDBCA6A73F4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BEFDEDE0-AB7E-47F7-8869-9066B7ACC4E5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEFDEDE0-AB7E-47F7-8869-9066B7ACC4E5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEFDEDE0-AB7E-47F7-8869-9066B7ACC4E5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEFDEDE0-AB7E-47F7-8869-9066B7ACC4E5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B9AC2F7A-FB86-4B22-9074-4CDBCA6A73F4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B9AC2F7A-FB86-4B22-9074-4CDBCA6A73F4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B9AC2F7A-FB86-4B22-9074-4CDBCA6A73F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B9AC2F7A-FB86-4B22-9074-4CDBCA6A73F4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {578829C3-F522-463D-8FF8-E8DAED237799}
+	EndGlobalSection
+EndGlobal
